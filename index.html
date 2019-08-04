@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="estilosite.css">
+</head>
+<body>
+    <header>Verificador de idade</header>
+    <section>
+        <div>
+            <p>Ano de nascimento: 
+            <input type="text" name="ano" id="ano" placeholder="digite seu ano de nascimento" width="300px"> </p>
+        </div>
+        <div>
+            <p>Sexo:
+            <input type="radio" name="radsex" id="mas" checked>
+            <label for="mas">Masculino</label>
+            <input type="radio" name="radsex" id="fem">
+            <label for="fem">Feminino</label>
+            </p>
+            <input type="button" value="Verificar" onclick="verificar()">
+        </div>
+        <p id="msg">Informe seus dados para poder ver o resultado</p>
+    </section>
+    
+    <footer>
+        <p>&copy;IgorLimaRocha</p>
+    </footer>
+
+    <script src="scriptidade.js"></script>
+</body>
+</html>
